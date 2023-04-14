@@ -36,7 +36,7 @@ function draw(){
       circle(leftwristx,leftwristy,20)  
       left=Number(leftwristy)
       removedecimal=floor(left)
-      volume=removedecimals/500
+      volume=removedecimal/500
       song.setVolume(volume)
       document.getElementById("volume").innerHTML="volume="+volume
     }
